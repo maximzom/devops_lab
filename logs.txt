@@ -1,0 +1,14 @@
+окт 26 22:59:21 devops-VirtualBox sudo[5825]: devops : TTY=/dev/pts/0 ; PWD=/home/devops/devops-lab ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+окт 26 22:59:21 devops-VirtualBox systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot skipped, unmet condition check ConditionFirstBoot=yes
+окт 26 22:59:21 devops-VirtualBox systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+окт 26 22:59:21 devops-VirtualBox sshd[5832]: Server listening on 0.0.0.0 port 22.
+окт 26 22:59:21 devops-VirtualBox sshd[5832]: Server listening on :: port 22.
+окт 26 22:59:21 devops-VirtualBox systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+окт 26 22:59:21 devops-VirtualBox sudo[5825]: pam_unix(sudo:session): session closed for user root
+окт 26 22:59:30 devops-VirtualBox sudo[5838]: pam_unix(sudo:session): session opened for user root(uid=0) by devops(uid=1000)
+окт 26 22:59:30 devops-VirtualBox sudo[5838]: devops : TTY=/dev/pts/0 ; PWD=/home/devops/devops-lab ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+окт 26 22:59:33 devops-VirtualBox sudo[5838]: pam_unix(sudo:session): session closed for user root
+окт 26 22:59:21 devops-VirtualBox systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+окт 26 22:59:21 devops-VirtualBox sshd[5832]: Server listening on 0.0.0.0 port 22.
+окт 26 22:59:21 devops-VirtualBox sshd[5832]: Server listening on :: port 22.
+окт 26 22:59:21 devops-VirtualBox systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
