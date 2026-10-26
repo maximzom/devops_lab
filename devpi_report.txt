@@ -1,0 +1,5 @@
+-- Local PyPi-Server DevPI --
+1. Created server on http://localhost:3141
+2. Created Index: devops/dev
+3. Packet my_devops_pkg has successfully installed with twine
+4. Installation checked in pip with flag --index-url
