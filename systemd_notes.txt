@@ -1,0 +1,1 @@
+WorkindDirectory=/tmp sets the processes working directory: the relative path >> test.log creates and updates the log specifically in /tmp/test.log

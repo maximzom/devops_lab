@@ -1,0 +1,12 @@
+[Unit]
+Description=My Test Logging Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/tmp
+ExecStart=/bin/bash -c 'while true; do echo "$(date): test service tick" >> test.log; sleep 60; done'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
